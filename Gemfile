@@ -23,6 +23,7 @@ gem 'rack-cors'
 gem "jwt_sessions"
 gem 'cloudinary'
 gem 'devise'
+gem 'simple_token_authentication', '~> 1.0'
 gem 'dotenv-rails', groups: [:development, :test]
 
 # Reduces boot times through caching; required in config/boot.rb
